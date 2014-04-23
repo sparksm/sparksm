@@ -1,0 +1,54 @@
+@import 'atoms/margin.scss';
+@import 'atoms/padding.scss';
+@import 'atoms/color.scss';
+@import 'atoms/font.scss';
+@import 'atoms/shadow.scss';
+@import 'atoms/animation.scss';
+
+.ov-h {
+	overflow: hidden;
+}
+
+.d-b {
+	display: block;
+}
+.d-ib {
+	display: inline-block;
+}
+
+
+.va-m {
+	vertical-align: middle;
+}
+
+.fw-b {
+	font-weight: bold;
+}
+
+.fs-i {
+	font-style: italic;
+}
+
+.cr-p{
+	cursor: pointer;
+}
+
+.o-n{
+	opacity: 0;
+}
+
+.p-r{
+	position: relative;
+}
+
+.z-l{
+	z-index: 1;
+}
+
+.z-m{
+	z-index: 10;
+}
+
+.z-h{
+	z-index: 100;
+}

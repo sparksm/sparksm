@@ -1,0 +1,30 @@
+@keyframes rotate-top {
+	to {
+		opacity: 0;
+		transform: rotateX(-90deg);
+	}
+}
+@keyframes rotate-bottom {
+	from {
+		transform: rotateX(90deg);
+		opacity: 0;
+	}
+}
+
+.an{
+	transform-origin: 50% 50% 50px;
+}
+
+.an-h{
+	transform-origin: 50% 50% 50px;
+}
+
+.an-rtt{
+	animation: rotate-top 450ms ease-in-out both;
+	overflow-y: hidden;
+}
+
+.an-rfb{
+	animation: rotate-bottom 450ms ease-in-out both;
+	overflow-y: hidden;
+}

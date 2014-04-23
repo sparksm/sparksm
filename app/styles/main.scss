@@ -1,8 +1,4 @@
 @import 'reset.scss';
-
-body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align:center;
-	background: #1e2629;
-	overflow:hidden;
-}
+@import 'variables.scss';
+@import 'globals.scss';
+@import 'atoms.scss';

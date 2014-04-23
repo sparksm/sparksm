@@ -1,0 +1,10 @@
+*{
+	backface-visibility: hidden;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: $dark-bg;
+	font-size: $std-font-size;
+	text-align: center;
+}

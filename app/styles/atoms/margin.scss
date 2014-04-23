@@ -1,0 +1,29 @@
+.mt-1 {
+	margin-top: $std-margin;
+}
+.mr-1 {
+	margin-right: $std-margin;
+}
+.mb-1 {
+	margin-bottom: $std-margin;
+}
+.ml-1 {
+	margin-left: $std-margin;
+}
+
+.mt-2 {
+	margin-top: 2*$std-margin;
+}
+.mr-2 {
+	margin-right: 2*$std-margin;
+}
+.mb-2 {
+	margin-bottom: 2*$std-margin;
+}
+.ml-2 {
+	margin-left: 2*$std-margin;
+}
+
+.mt-m3{
+	margin-top: -3*$std-margin;
+}
